@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -16,15 +18,26 @@
   width: 100vw;
 }
 
+@keyframes animation {
+  from {
+    scale: 1;
+  }
+
+  to {
+    scale: 1.1;
+  }
+}
+
 .image {
   height: 80%;
   width: 80%;
   border-radius: 50%;
-  background: radial-gradient( rgba(118, 22, 131, 0.5) 20%, rgba(193, 19, 199, 0.1) 35%, black 65%), url("./assets/ex.jpg");
+  background: radial-gradient( rgba(118, 22, 131, 0.5) 20%, rgba(193, 19, 199, 0.1) 35%, black 65%), url("./assets/ex2.jpg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -69,4 +82,30 @@ span {
   margin-top: 10px;
   display: block;
 }
+
+.description-div {
+  width:40%;
+  text-align: center;
+}
+
+.description {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.btn-contact {
+  width: 150px;
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 15px;
+  padding: 10px;
+  font-weight: bold;
+  animation-name: animation;
+  animation-duration: 3s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  cursor: pointer;
+}
+
 
