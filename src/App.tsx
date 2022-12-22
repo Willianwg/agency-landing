@@ -1,13 +1,12 @@
 import './App.css'
 import { FaBrain, FaLightbulb } from "react-icons/fa";
 import { RiSendPlaneFill } from "react-icons/ri";
-
-
+import aboutImage from './assets/about-image.jpg';
 
 function App() {
 
   return (
-    <>
+    <div className='page'>
       <div className='main'>
         <header>
           <h1 className="logo">Harvey.</h1>
@@ -51,6 +50,7 @@ function App() {
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At, ducimus accusamus velit explicabo, voluptas facilis commodi eius ad dolores nam a? Dicta illo dolor id, eius sed perferendis qui molestiae.</p>
             <button className='btn-contact'>Contact Us</button>
           </div>
+          <img src={ aboutImage } />
         </section>
       </div>
       <footer>
@@ -64,7 +64,7 @@ function App() {
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
         </div>
       </footer>
-    </>
+    </div>
   )
 }
 
