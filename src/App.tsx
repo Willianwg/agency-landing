@@ -20,6 +20,20 @@ function App() {
           </div>
           <button className='btn-contact'>Contact Us</button>
         </div>
+        <div className="cards-container">
+          <div className="card">
+            <h2>Feature Concept.</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente iure hic dicta facilis quasi? Alias, quo iusto! Reprehenderit cum est cumque quia. Sint ipsam tempore error obcaecati officia quaerat ab!</p>
+          </div>
+          <div className="card">
+            <h2>Bug Ideas</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente iure hic dicta facilis quasi? Alias, quo iusto! Reprehenderit cum est cumque quia. Sint ipsam tempore error obcaecati officia quaerat ab!</p>
+          </div>
+          <div className="card">
+            <h2>Creative</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente iure hic dicta facilis quasi? Alias, quo iusto! Reprehenderit cum est cumque quia. Sint ipsam tempore error obcaecati officia quaerat ab!</p>
+          </div>
+        </div>
       </div>
       <footer>
         <div className="footer-content">

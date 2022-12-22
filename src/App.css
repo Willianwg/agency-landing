@@ -5,7 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Segoe UI";
-  color:white;
+  color: white;
 }
 
 .main {
@@ -14,7 +14,7 @@
   align-items: center;
   justify-content: center;
   background: black;
-  height: 100vh;
+  height: 100%;
   width: 100vw;
 }
 
@@ -32,7 +32,7 @@
   height: 80%;
   width: 80%;
   border-radius: 50%;
-  background: radial-gradient( rgba(118, 22, 131, 0.5) 20%, rgba(193, 19, 199, 0.1) 35%, black 65%), url("./assets/ex2.jpg");
+  background: radial-gradient(rgba(118, 22, 131, 0.5) 20%, rgba(193, 19, 199, 0.1) 35%, black 65%), url("./assets/ex2.jpg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -40,6 +40,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  min-height: 35rem;
 }
 
 .text {
@@ -48,8 +49,8 @@
 
 header {
   width: 100%;
-  padding-left: 5rem;
-  padding-right: 5rem;
+  padding-top: 1rem;
+  padding-inline: 5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -69,7 +70,7 @@ header {
 }
 
 .menu span:nth-child(2) {
-  width:3rem;
+  width: 3rem;
   transform: translateX(-1rem);
 }
 
@@ -84,7 +85,7 @@ span {
 }
 
 .description-div {
-  width:40%;
+  width: 40%;
   text-align: center;
 }
 
@@ -128,17 +129,45 @@ footer button {
 }
 
 .footer-content {
-  width:65%;
+  width: 65%;
 }
 
 .rights {
   margin-top: 3rem;
   width: 100%;
-  padding:2.5rem;
+  padding: 2.5rem;
   border-top: 1px solid white;
   display: flex;
   justify-content: space-between;
   padding-inline: 6rem;
 }
 
+.cards-container {
+  width: 100%;
+  display: flex;
+  padding-inline: 5rem;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+}
 
+.card {
+  width: 23rem;
+  height: 24rem;
+  background: #16163c;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.card:nth-child(2) {
+  background: linear-gradient(to top right, #fd098791 , #7237BD );
+}
+
+.card h2 {
+  font-size: 30px;
+  margin-bottom: 1.5rem;
+}
+
+.card p {
+  font-weight: 200;
+  font-size: medium;
+}
