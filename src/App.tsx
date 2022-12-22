@@ -1,6 +1,9 @@
 import './App.css'
-import { FaBrain, FaLightbulb } from "react-icons/fa";
+import { FaBrain, FaLightbulb, FaLaptopCode } from "react-icons/fa";
 import { RiSendPlaneFill } from "react-icons/ri";
+import { MdDesignServices } from "react-icons/md";
+import { HiIdentification } from "react-icons/hi";
+import { RiComputerLine } from "react-icons/ri";
 import aboutImage from './assets/about-image.jpg';
 
 function App() {
@@ -40,24 +43,67 @@ function App() {
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente iure hic dicta facilis quasi? Alias, quo iusto! Reprehenderit cum est cumque quia. Sint ipsam tempore error obcaecati officia quaerat ab!</p>
           </div>
         </div>
-        <section className="about">
+        <section about="about-us" className="about">
           <div className="about-left">
-            <div className="about-label-area">
-              <span></span>
-              <h3>ABOUT US</h3>
+            <div className="section-label-area">
+              <span className='section-label-line'></span>
+              <h3 className='section-label'>ABOUT US</h3>
             </div>
-            <h2>We Are Experts <br /> In Our Field.</h2>
+            <h2 className='section-text'>We Are Experts <br /> In Our Field.</h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At, ducimus accusamus velit explicabo, voluptas facilis commodi eius ad dolores nam a? Dicta illo dolor id, eius sed perferendis qui molestiae.</p>
-            <button className='btn-contact'>Contact Us</button>
+            <button className='colored-btn'>Contact Us</button>
           </div>
-          <img src={ aboutImage } />
+          <img src={aboutImage} />
+        </section>
+        <section about='services' className='services' >
+          <div className='section-information'>
+            <div className="about-left">
+              <div className='section-label-area'>
+                <span className='section-label-line'></span>
+                <h3 className='section-label'>Services</h3>
+              </div>
+              <h3 className='section-text'>We do Everything.</h3>
+              <p>Reprehenderit aliquam rerum illo, aperiam natus voluptas esse totam omnis, quisquam aliquid labore, aspernatur impedit a at? Cum.</p>
+            </div>
+            <button className='colored-btn'>See More</button>
+          </div>
+          <div className="cards-container">
+            <div className="card">
+              <div className='service-card-icon'>
+                <MdDesignServices size={45} fill="#16163c" />
+              </div>
+              <h2>UI/UX Design</h2>
+              <p> Alias, quo iusto! Reprehenderit cum est cumque quia. Sint ipsam tempore error obcaecati officia quaerat ab!</p>
+            </div>
+            <div className="card">
+              <div className='service-card-icon'>
+                <FaLaptopCode size={45} fill="#16163c" />
+              </div>
+              <h2>Development</h2>
+              <p> Alias, quo iusto! Reprehenderit cum est cumque quia. Sint ipsam tempore error obcaecati officia quaerat ab!</p>
+            </div>
+            <div className="card">
+              <div className='service-card-icon'>
+                <RiComputerLine size={45} fill="#16163c" />
+              </div>
+              <h2>Visual Design</h2>
+              <p> Alias, quo iusto! Reprehenderit cum est cumque quia. Sint ipsam tempore error obcaecati officia quaerat ab!</p>
+            </div>
+            <div className="card">
+              <div className='service-card-icon'>
+                <HiIdentification size={45} fill="#16163c" />
+              </div>
+              <h2>Brand&Identity</h2>
+              <p> Alias, quo iusto! Reprehenderit cum est cumque quia. Sint ipsam tempore error obcaecati officia quaerat ab!</p>
+            </div>
+          </div>
         </section>
       </div>
       <footer>
         <div className="footer-content">
           <h3>Let's Talk?</h3>
           <p className='description'> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem et error accusamus rem molestiae. Corporis expedita iste deleniti earum non maxime blanditiis nulla dolorem exercitationem molestiae eveniet, voluptate ut cupiditate!</p>
-          <button className="btn-contact">Make An Enquiry</button>
+          <button >Make An Enquiry</button>
         </div>
         <div className="rights">
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
