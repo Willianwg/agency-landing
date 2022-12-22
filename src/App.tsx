@@ -41,6 +41,17 @@ function App() {
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente iure hic dicta facilis quasi? Alias, quo iusto! Reprehenderit cum est cumque quia. Sint ipsam tempore error obcaecati officia quaerat ab!</p>
           </div>
         </div>
+        <section className="about">
+          <div className="about-left">
+            <div className="about-label-area">
+              <span></span>
+              <h3>ABOUT US</h3>
+            </div>
+            <h2>We Are Experts <br /> In Our Field.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At, ducimus accusamus velit explicabo, voluptas facilis commodi eius ad dolores nam a? Dicta illo dolor id, eius sed perferendis qui molestiae.</p>
+            <button className='btn-contact'>Contact Us</button>
+          </div>
+        </section>
       </div>
       <footer>
         <div className="footer-content">
