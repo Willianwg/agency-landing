@@ -151,20 +151,22 @@ footer button {
 }
 
 .card {
-  width: 23rem;
-  height: 24rem;
+  width: 23.5rem;
+  height: 25rem;
   background: #16163c;
   padding: 2rem;
+  padding-top: 4rem;
   border-radius: 1rem;
 }
 
 .card:nth-child(2) {
-  background: linear-gradient(to top right, #fd098791 , #7237BD );
+  background: linear-gradient(to top right, #fd0987b0 , #7237BD );
 }
 
 .card h2 {
-  font-size: 30px;
-  margin-bottom: 1.5rem;
+  line-height: 4rem;
+  font-size: 35px;
+  margin-bottom: 1rem;
 }
 
 .card p {

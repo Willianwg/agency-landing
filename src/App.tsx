@@ -1,4 +1,8 @@
 import './App.css'
+import { FaBrain, FaLightbulb } from "react-icons/fa";
+import { RiSendPlaneFill } from "react-icons/ri";
+
+
 
 function App() {
 
@@ -22,15 +26,18 @@ function App() {
         </div>
         <div className="cards-container">
           <div className="card">
+            <RiSendPlaneFill size={45} />
             <h2>Feature Concept.</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente iure hic dicta facilis quasi? Alias, quo iusto! Reprehenderit cum est cumque quia. Sint ipsam tempore error obcaecati officia quaerat ab!</p>
           </div>
           <div className="card">
-            <h2>Bug Ideas</h2>
+            <FaBrain size={45} />
+            <h2>Big Ideas.</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente iure hic dicta facilis quasi? Alias, quo iusto! Reprehenderit cum est cumque quia. Sint ipsam tempore error obcaecati officia quaerat ab!</p>
           </div>
           <div className="card">
-            <h2>Creative</h2>
+            <FaLightbulb size={45} />
+            <h2>Creative.</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente iure hic dicta facilis quasi? Alias, quo iusto! Reprehenderit cum est cumque quia. Sint ipsam tempore error obcaecati officia quaerat ab!</p>
           </div>
         </div>
