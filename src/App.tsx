@@ -98,6 +98,31 @@ function App() {
             </div>
           </div>
         </section>
+        <section about='portfolio' className='portfolio'>
+          <div className='section-information'>
+            <div className="about-left">
+              <div className='section-label-area'>
+                <span className='section-label-line'></span>
+                <h3 className='section-label'>Portfolio</h3>
+              </div>
+              <h3 className='section-text'>Our latest project.</h3>
+              <p>Reprehenderit aliquam rerum illo, aperiam natus voluptas esse totam omnis, quisquam aliquid labore, aspernatur impedit a at? Cum.</p>
+            </div>
+            <button className='colored-btn'>See More</button>
+          </div>
+        </section>
+        <section about='testimonials' className='testimonials'>
+          <div className='section-information'>
+            <div className="about-left">
+              <div className='section-label-area'>
+                <span className='section-label-line'></span>
+                <h3 className='section-label'>Testimonials</h3>
+              </div>
+              <h3 className='section-text'>what clients say.</h3>
+              <p>Reprehenderit aliquam rerum illo, aperiam natus voluptas esse totam omnis, quisquam aliquid labore, aspernatur impedit a at? Cum.</p>
+            </div>
+          </div>
+        </section>
       </div>
       <footer>
         <div className="footer-content">

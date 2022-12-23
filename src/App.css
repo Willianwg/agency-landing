@@ -132,7 +132,7 @@ button {
 }
 
 .card:nth-child(2) {
-  background: linear-gradient(to top right, #fd0987b0 , #7237BD );
+  background: linear-gradient(to top right, #fd0987b0, #7237BD);
 }
 
 .card h2 {
@@ -146,12 +146,15 @@ button {
   font-size: medium;
 }
 
-.about{
-  background: #191c26;
+section {
   width: 100%;
+  padding: 5rem;
+}
+
+.about {
+  background: #191c26;
   height: 34rem;
   display: flex;
-  padding: 6rem;
   justify-content: space-between;
   align-items: center;
 }
@@ -166,6 +169,7 @@ button {
   word-spacing: -3px;
   font-size: 3.5rem;
   margin-bottom: 1.5rem;
+  text-transform: capitalize;
 }
 
 .about-left {
@@ -193,7 +197,7 @@ button {
 }
 
 .about img {
-  width:40%;
+  width: 40%;
   border-top-right-radius: 15rem;
   border-top-left-radius: 10rem;
   border-bottom-left-radius: 10rem;
@@ -208,19 +212,16 @@ button {
   height: min-content;
   margin-bottom: 7rem;
 }
-.services {
-  width: 100%;
-  padding: 5rem;
-}
 
 .services .cards-container {
   padding: 0px;
 }
+
 .services .card {
-  width:17.5rem;
+  width: 17.5rem;
   padding-block: 5rem;
   height: min-content;
-  position:relative;
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -241,7 +242,11 @@ button {
   box-shadow: 0px 3px 25px -8px white;
   background: white;
   position: absolute;
-  top:-2.5rem;
+  top: -2.5rem;
+}
+
+.portfolio {
+  background: #191c26;
 }
 
 footer {
