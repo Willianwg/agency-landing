@@ -125,8 +125,9 @@ function App() {
         </section>
       </div>
       <footer>
+        <span className='footer-line'></span>
         <div className="footer-content">
-          <h3>Let's Talk?<span className='point'>.</span></h3>
+          <h3>Let's Talk ?<span className='point'>.</span></h3>
           <p className='description'> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem et error accusamus rem molestiae. Corporis expedita iste deleniti earum non maxime blanditiis nulla dolorem exercitationem molestiae eveniet, voluptate ut cupiditate!</p>
           <button >Make An Enquiry</button>
         </div>
