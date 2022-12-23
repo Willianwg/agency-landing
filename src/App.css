@@ -243,6 +243,10 @@ section {
   font-size: 30px;
 }
 
+.services .cards-container {
+  margin-bottom: 2rem;
+}
+
 .service-card-icon {
   padding: 1rem;
   display: inline-block;
