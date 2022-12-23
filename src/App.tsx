@@ -14,9 +14,9 @@ function App() {
         <header>
           <h1 className="logo">Harvey.</h1>
           <div className="menu">
-            <span> </span>
-            <span> </span>
-            <span> </span>
+            <span className='span-menu'> </span>
+            <span className='span-menu'> </span>
+            <span className='span-menu'> </span>
           </div>
         </header>
         <div className='image'>
@@ -49,7 +49,7 @@ function App() {
               <span className='section-label-line'></span>
               <h3 className='section-label'>ABOUT US</h3>
             </div>
-            <h2 className='section-text'>We Are Experts <br /> In Our Field.</h2>
+            <h2 className='section-text'>We Are Experts <br /> In Our Field<span className='point'>.</span></h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At, ducimus accusamus velit explicabo, voluptas facilis commodi eius ad dolores nam a? Dicta illo dolor id, eius sed perferendis qui molestiae.</p>
             <button className='colored-btn'>Contact Us</button>
           </div>
@@ -62,7 +62,7 @@ function App() {
                 <span className='section-label-line'></span>
                 <h3 className='section-label'>Services</h3>
               </div>
-              <h3 className='section-text'>We do Everything.</h3>
+              <h3 className='section-text'>We do Everything<span className='point'>.</span></h3>
               <p>Reprehenderit aliquam rerum illo, aperiam natus voluptas esse totam omnis, quisquam aliquid labore, aspernatur impedit a at? Cum.</p>
             </div>
             <button className='colored-btn'>See More</button>
@@ -105,7 +105,7 @@ function App() {
                 <span className='section-label-line'></span>
                 <h3 className='section-label'>Portfolio</h3>
               </div>
-              <h3 className='section-text'>Our latest project.</h3>
+              <h3 className='section-text'>Our latest project<span className='point'>.</span></h3>
               <p>Reprehenderit aliquam rerum illo, aperiam natus voluptas esse totam omnis, quisquam aliquid labore, aspernatur impedit a at? Cum.</p>
             </div>
             <button className='colored-btn'>See More</button>
@@ -118,7 +118,7 @@ function App() {
                 <span className='section-label-line'></span>
                 <h3 className='section-label'>Testimonials</h3>
               </div>
-              <h3 className='section-text'>what clients say.</h3>
+              <h3 className='section-text'>what clients say<span className='point'>.</span></h3>
               <p>Reprehenderit aliquam rerum illo, aperiam natus voluptas esse totam omnis, quisquam aliquid labore, aspernatur impedit a at? Cum.</p>
             </div>
           </div>
@@ -126,7 +126,7 @@ function App() {
       </div>
       <footer>
         <div className="footer-content">
-          <h3>Let's Talk?</h3>
+          <h3>Let's Talk?<span className='point'>.</span></h3>
           <p className='description'> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem et error accusamus rem molestiae. Corporis expedita iste deleniti earum non maxime blanditiis nulla dolorem exercitationem molestiae eveniet, voluptate ut cupiditate!</p>
           <button >Make An Enquiry</button>
         </div>

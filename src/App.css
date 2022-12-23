@@ -79,7 +79,7 @@ header {
   transform: translateX(-1rem);
 }
 
-span {
+.span-menu {
   border-width: 2px;
   border-color: white;
   background: white;
@@ -151,6 +151,12 @@ section {
   padding: 5rem;
 }
 
+.point {
+  color: #fd0988;
+  margin-left: 2px;
+  font-size: 45pt;
+}
+
 .about {
   background: #191c26;
   height: 34rem;
@@ -168,8 +174,9 @@ section {
 .section-text {
   word-spacing: -3px;
   font-size: 3.5rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
   text-transform: capitalize;
+  line-height: 3.5rem;
 }
 
 .about-left {
@@ -194,6 +201,7 @@ section {
   width: 5rem;
   margin-block: auto;
   margin-right: 2rem;
+  height: 2px;
 }
 
 .about img {
@@ -260,7 +268,7 @@ footer {
 }
 
 footer h3 {
-  font-size: 35pt;
+  font-size: 42pt;
   line-height: 10rem;
 }
 
