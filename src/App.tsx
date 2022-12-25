@@ -4,6 +4,9 @@ import { RiSendPlaneFill } from "react-icons/ri";
 import { MdDesignServices } from "react-icons/md";
 import { HiIdentification } from "react-icons/hi";
 import { RiComputerLine } from "react-icons/ri";
+import { IoStarSharp } from "react-icons/io5";
+import ClientImage from "./assets/ex.jpg";
+
 import aboutImage from './assets/about-image.jpg';
 
 function App() {
@@ -120,6 +123,43 @@ function App() {
               </div>
               <h3 className='section-text'>what clients say<span className='point'>.</span></h3>
               <p>Reprehenderit aliquam rerum illo, aperiam natus voluptas esse totam omnis, quisquam aliquid labore, aspernatur impedit a at? Cum.</p>
+            </div>
+          </div>
+          <div className='testimonials-list'>
+            <div className="card">
+              <div className='client-information'>
+                <img src={ClientImage} />
+                <div className='client'>
+                  <p className="name">Bobby Fischer</p>
+                  <p className="occupation">Chess Master</p>
+                </div>
+              </div>
+              <p className="client-testimonial">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe enim esse fuga numquam possimus. Ipsa, repellendus. Labore nisi cumque, iure, reprehenderit dolor fuga quaerat dolorem expedita animi alias molestias tempora!</p>
+              <div className="stars">
+                <IoStarSharp fill='orange' size={30} />
+                <IoStarSharp fill='orange' size={30} />
+                <IoStarSharp fill='orange' size={30} />
+                <IoStarSharp fill='orange' size={30} />
+                <IoStarSharp fill='orange' size={30} />
+              </div>
+            </div>
+
+            <div className="card">
+              <div className='client-information'>
+                <img src={ClientImage} />
+                <div className='client'>
+                  <p className="name">Bobby Fischer</p>
+                  <p className="occupation">Chess Master</p>
+                </div>
+              </div>
+              <p className="client-testimonial">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe enim esse fuga numquam possimus. Ipsa, repellendus. Labore nisi cumque, iure, reprehenderit dolor fuga quaerat dolorem expedita animi alias molestias tempora!</p>
+              <div className="stars">
+                <IoStarSharp fill='orange' size={30} />
+                <IoStarSharp fill='orange' size={30} />
+                <IoStarSharp fill='orange' size={30} />
+                <IoStarSharp fill='orange' size={30} />
+                <IoStarSharp fill='orange' size={30} />
+              </div>
             </div>
           </div>
         </section>
