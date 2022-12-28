@@ -284,7 +284,7 @@ section {
 
 .testimonials .card {
   background: linear-gradient(to top right, #fd0987b0, #7237BD);
-  min-width: 49%;
+  min-width: 100%;
   padding: 2rem;
   padding-bottom: 4rem;
   display: flex;

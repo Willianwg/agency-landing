@@ -8,6 +8,7 @@ import { IoStarSharp } from "react-icons/io5";
 import ClientImage from "./assets/ex.jpg";
 
 import aboutImage from './assets/about-image.jpg';
+import { SwiperComponent } from './Swiper';
 
 function App() {
 
@@ -125,62 +126,9 @@ function App() {
               <p>Reprehenderit aliquam rerum illo, aperiam natus voluptas esse totam omnis, quisquam aliquid labore, aspernatur impedit a at? Cum.</p>
             </div>
           </div>
-          <div className='testimonials-list'>
-            <div className="card">
-              <div className='client-information'>
-                <img src={ClientImage} />
-                <div className='client'>
-                  <p className="name">Bobby Fischer</p>
-                  <p className="occupation">Chess Master</p>
-                </div>
-              </div>
-              <p className="client-testimonial">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe enim esse fuga numquam possimus. Ipsa, repellendus. Labore nisi cumque, iure, reprehenderit dolor fuga quaerat dolorem expedita animi alias molestias tempora!</p>
-              <div className="stars">
-                <IoStarSharp fill='orange' size={30} />
-                <IoStarSharp fill='orange' size={30} />
-                <IoStarSharp fill='orange' size={30} />
-                <IoStarSharp fill='orange' size={30} />
-                <IoStarSharp fill='orange' size={30} />
-              </div>
-            </div>
-
-            <div className="card">
-              <div className='client-information'>
-                <img src={ClientImage} />
-                <div className='client'>
-                  <p className="name">Bobby Fischer</p>
-                  <p className="occupation">Chess Master</p>
-                </div>
-              </div>
-              <p className="client-testimonial">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe enim esse fuga numquam possimus. Ipsa, repellendus. Labore nisi cumque, iure, reprehenderit dolor fuga quaerat dolorem expedita animi alias molestias tempora!</p>
-              <div className="stars">
-                <IoStarSharp fill='orange' size={30} />
-                <IoStarSharp fill='orange' size={30} />
-                <IoStarSharp fill='orange' size={30} />
-                <IoStarSharp fill='orange' size={30} />
-                <IoStarSharp fill='orange' size={30} />
-              </div>
-            </div>
-
-            <div className="card">
-              <div className='client-information'>
-                <img src={ClientImage} />
-                <div className='client'>
-                  <p className="name">Bobby Fischer</p>
-                  <p className="occupation">Chess Master</p>
-                </div>
-              </div>
-              <p className="client-testimonial">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe enim esse fuga numquam possimus. Ipsa, repellendus. Labore nisi cumque, iure, reprehenderit dolor fuga quaerat dolorem expedita animi alias molestias tempora!</p>
-              <div className="stars">
-                <IoStarSharp fill='orange' size={30} />
-                <IoStarSharp fill='orange' size={30} />
-                <IoStarSharp fill='orange' size={30} />
-                <IoStarSharp fill='orange' size={30} />
-                <IoStarSharp fill='orange' size={30} />
-              </div>
-            </div>
-          </div>
+          <SwiperComponent />
         </section>
+        
       </div>
       <footer>
         <span className='footer-line'></span>
